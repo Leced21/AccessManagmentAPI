@@ -34,5 +34,6 @@ steps:
     configuration: '$(buildConfiguration)'
 - task: PublishBuildArtifacts@1
   inputs:
-    PathtoPublish: 'dist'
+    PathtoPublish: '$(Build.ArtifactStagingDirectory)'
     ArtifactName: 'dist'
+    
