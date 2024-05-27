@@ -11,8 +11,8 @@ using Microsoft.EntityFrameworkCore.Storage.ValueConversion;
 namespace AccessManagmentAPI.Migrations
 {
     [DbContext(typeof(ContetxtDb))]
-    [Migration("20240527111629_v1")]
-    partial class v1
+    [Migration("20240527133152_v2")]
+    partial class v2
     {
         /// <inheritdoc />
         protected override void BuildTargetModel(ModelBuilder modelBuilder)
@@ -54,7 +54,7 @@ namespace AccessManagmentAPI.Migrations
 
                     b.HasKey("Id");
 
-                    b.ToTable("userregisters");
+                    b.ToTable("Userregisters");
                 });
 #pragma warning restore 612, 618
         }

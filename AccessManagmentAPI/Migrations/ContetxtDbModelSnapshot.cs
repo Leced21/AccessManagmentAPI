@@ -51,7 +51,7 @@ namespace AccessManagmentAPI.Migrations
 
                     b.HasKey("Id");
 
-                    b.ToTable("userregisters");
+                    b.ToTable("Userregisters");
                 });
 #pragma warning restore 612, 618
         }

@@ -5,11 +5,11 @@ namespace AccessManagmentAPI.Context
 {
     public class ContetxtDb:DbContext
     {
-        public ContetxtDb(DbContextOptions dbContextOptions):base(dbContextOptions)
+        public ContetxtDb(DbContextOptions<ContetxtDb> options):base(options)
         {
             
         }
-        DbSet<Userregister> userregisters { get; set; }
+        public DbSet<Userregister> Userregisters { get; set; }
 
     }
 }

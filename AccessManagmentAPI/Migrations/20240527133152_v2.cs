@@ -5,13 +5,13 @@
 namespace AccessManagmentAPI.Migrations
 {
     /// <inheritdoc />
-    public partial class v1 : Migration
+    public partial class v2 : Migration
     {
         /// <inheritdoc />
         protected override void Up(MigrationBuilder migrationBuilder)
         {
             migrationBuilder.CreateTable(
-                name: "userregisters",
+                name: "Userregisters",
                 columns: table => new
                 {
                     Id = table.Column<int>(type: "int", nullable: false)
@@ -24,7 +24,7 @@ namespace AccessManagmentAPI.Migrations
                 },
                 constraints: table =>
                 {
-                    table.PrimaryKey("PK_userregisters", x => x.Id);
+                    table.PrimaryKey("PK_Userregisters", x => x.Id);
                 });
         }
 
@@ -32,7 +32,7 @@ namespace AccessManagmentAPI.Migrations
         protected override void Down(MigrationBuilder migrationBuilder)
         {
             migrationBuilder.DropTable(
-                name: "userregisters");
+                name: "Userregisters");
         }
     }
 }
