@@ -1,6 +1,6 @@
 {
   "version": 2,
-  "dgSpecHash": "N10RJJneDFGReUN8HoDfsobbysgIT9e3+2GP3il1TJfIHtM7ZSLh8MKKzgr5oya6A06wmEyWbUl0ctXYIpmd8g==",
+  "dgSpecHash": "Er+O2hay4Il7FRyuEgl15UwetMR5sSoIkzlsRa5XVy1vrreUwUxYChElK9ktMp8Q+1+S0f6sSORg9vfrv/uFqw==",
   "success": true,
   "projectFilePath": "E:\\Bureau\\NewApp\\Angular-Project\\AccessManagmentAPI\\AccessManagmentAPI\\AccessManagmentAPI.csproj",
   "expectedPackageFiles": [
@@ -11,6 +11,7 @@
     "C:\\Users\\cedri\\.nuget\\packages\\microsoft.aspnetcore.authentication.core\\2.2.0\\microsoft.aspnetcore.authentication.core.2.2.0.nupkg.sha512",
     "C:\\Users\\cedri\\.nuget\\packages\\microsoft.aspnetcore.authorization\\2.2.0\\microsoft.aspnetcore.authorization.2.2.0.nupkg.sha512",
     "C:\\Users\\cedri\\.nuget\\packages\\microsoft.aspnetcore.authorization.policy\\2.2.0\\microsoft.aspnetcore.authorization.policy.2.2.0.nupkg.sha512",
+    "C:\\Users\\cedri\\.nuget\\packages\\microsoft.aspnetcore.cors\\2.1.1\\microsoft.aspnetcore.cors.2.1.1.nupkg.sha512",
     "C:\\Users\\cedri\\.nuget\\packages\\microsoft.aspnetcore.hosting.abstractions\\2.2.0\\microsoft.aspnetcore.hosting.abstractions.2.2.0.nupkg.sha512",
     "C:\\Users\\cedri\\.nuget\\packages\\microsoft.aspnetcore.hosting.server.abstractions\\2.2.0\\microsoft.aspnetcore.hosting.server.abstractions.2.2.0.nupkg.sha512",
     "C:\\Users\\cedri\\.nuget\\packages\\microsoft.aspnetcore.http\\2.2.0\\microsoft.aspnetcore.http.2.2.0.nupkg.sha512",

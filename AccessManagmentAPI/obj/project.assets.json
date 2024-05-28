@@ -129,6 +129,26 @@
           }
         }
       },
+      "Microsoft.AspNetCore.Cors/2.1.1": {
+        "type": "package",
+        "dependencies": {
+          "Microsoft.AspNetCore.Http.Extensions": "2.1.1",
+          "Microsoft.Extensions.Configuration.Abstractions": "2.1.1",
+          "Microsoft.Extensions.DependencyInjection.Abstractions": "2.1.1",
+          "Microsoft.Extensions.Logging.Abstractions": "2.1.1",
+          "Microsoft.Extensions.Options": "2.1.1"
+        },
+        "compile": {
+          "lib/netstandard2.0/Microsoft.AspNetCore.Cors.dll": {
+            "related": ".xml"
+          }
+        },
+        "runtime": {
+          "lib/netstandard2.0/Microsoft.AspNetCore.Cors.dll": {
+            "related": ".xml"
+          }
+        }
+      },
       "Microsoft.AspNetCore.Hosting.Abstractions/2.2.0": {
         "type": "package",
         "dependencies": {
@@ -2070,6 +2090,19 @@
         "lib/netstandard2.0/Microsoft.AspNetCore.Authorization.Policy.xml",
         "microsoft.aspnetcore.authorization.policy.2.2.0.nupkg.sha512",
         "microsoft.aspnetcore.authorization.policy.nuspec"
+      ]
+    },
+    "Microsoft.AspNetCore.Cors/2.1.1": {
+      "sha512": "5b3xfO8ycP9fEm76HGdExptlxURKNbmGnlA2mN+FQMaWPEuFH1te6GReBcKCQp4oeSSWuLfV9xSo+8LpU24u1A==",
+      "type": "package",
+      "path": "microsoft.aspnetcore.cors/2.1.1",
+      "files": [
+        ".nupkg.metadata",
+        ".signature.p7s",
+        "lib/netstandard2.0/Microsoft.AspNetCore.Cors.dll",
+        "lib/netstandard2.0/Microsoft.AspNetCore.Cors.xml",
+        "microsoft.aspnetcore.cors.2.1.1.nupkg.sha512",
+        "microsoft.aspnetcore.cors.nuspec"
       ]
     },
     "Microsoft.AspNetCore.Hosting.Abstractions/2.2.0": {
@@ -5174,6 +5207,7 @@
   },
   "projectFileDependencyGroups": {
     "net8.0": [
+      "Microsoft.AspNetCore.Cors >= 2.1.1",
       "Microsoft.AspNetCore.Mvc.Core >= 2.2.5",
       "Microsoft.EntityFrameworkCore >= 8.0.5",
       "Microsoft.EntityFrameworkCore.Design >= 8.0.5",
@@ -5231,6 +5265,10 @@
       "net8.0": {
         "targetAlias": "net8.0",
         "dependencies": {
+          "Microsoft.AspNetCore.Cors": {
+            "target": "Package",
+            "version": "[2.1.1, )"
+          },
           "Microsoft.AspNetCore.Mvc.Core": {
             "target": "Package",
             "version": "[2.2.5, )"
