@@ -4,6 +4,7 @@ using AccessManagmentAPI.Models;
 using AccessManagmentAPI.Repos.Models;
 using AccessManagmentAPI.Service;
 using Microsoft.AspNetCore.Identity;
+using Microsoft.EntityFrameworkCore;
 
 namespace AccessManagmentAPI.Container
 {
@@ -15,9 +16,38 @@ namespace AccessManagmentAPI.Container
             _contetxtDb = contetxtdb;
         }
 
-        public Task<APIResponse> ConfirmRegister(int userid, string username, string otptext)
+        public async Task<APIResponse> ConfirmRegister(int userid, string username, string otptext)
         {
-            throw new NotImplementedException();
+            APIResponse response = new APIResponse();
+            bool otpresponse=await ValidateOTP(username, otptext);
+            if (!otpresponse) 
+            {
+                response.Result = "fail";
+                response.Message = "Invalid OTP or Expired";
+            }
+            else
+            {
+                var _tempdata=await this._contetxtDb.TblTempusers.FirstOrDefaultAsync(item=>item.Id==userid);
+                var _user = new TblUser()
+                {
+                    Username = username,
+                    Name = _tempdata.Name,
+                    Password = _tempdata.Password,
+                    Email = _tempdata.Email,
+                    Phone = _tempdata.Phone,
+                    Failattempt = 0,
+                    Isactive = true,
+                    Islocked = false,
+                    Role = "user"
+                };
+                await this._contetxtDb.TblUsers.AddAsync(_user);
+                await this._contetxtDb.SaveChangesAsync();
+                await UpdatePWDManager(username, _tempdata.Password);
+                response.Result = "pass";
+                response.Message = "Registered successfully";
+            }
+
+            return response;
         }
 
         public async Task<APIResponse> UserRegisteration(UserRegister userRegister)
@@ -25,9 +55,29 @@ namespace AccessManagmentAPI.Container
 
             APIResponse response = new APIResponse();
             int userid = 0;
+            bool isvalid = true;
+
             try
             {
-                if (userRegister != null)
+                //duplicate user
+                var _user=await this._contetxtDb.TblUsers.Where(item=>item.Username==userRegister.UserName).ToListAsync();
+                if (_user.Count > 0) 
+                { 
+                    isvalid = false;
+                    response.Result = "fail";
+                    response.Message = "Duplicate username";
+                }
+
+                // duplicate Email
+                var _usermail = await this._contetxtDb.TblUsers.Where(item => item.Username == userRegister.Email).ToListAsync();
+                if (_usermail.Count > 0)
+                {
+                    isvalid = false;
+                    response.Result = "fail";
+                    response.Message = "Duplicate email";
+                }
+
+                if (userRegister != null && isvalid)
                 {
                     var _tempuser = new TblTempuser()
                     {
@@ -67,6 +117,29 @@ namespace AccessManagmentAPI.Container
                 Otptype = otptype
             };
             await this._contetxtDb.TblOtpManagers.AddAsync(_otp);
+            await this._contetxtDb.SaveChangesAsync();
+        }
+
+        private async Task<bool> ValidateOTP(string username, string OTPText)
+        {
+            bool response = false;
+            var _data = await this._contetxtDb.TblOtpManagers.FirstOrDefaultAsync(item => item.Username == username && item.Otptext == OTPText && item.Expiration > DateTime.Now);
+            if (_data != null)
+            {
+                response = true;
+            }
+            return response;
+        }
+
+        private async Task UpdatePWDManager(string username, string password)
+        {
+            var _otp = new TblPwdManger()
+            {
+                Username = username,
+                Password = password,
+                ModifyDate = DateTime.Now,
+            };
+            await this._contetxtDb.TblPwdMangers.AddAsync(_otp);
             await this._contetxtDb.SaveChangesAsync();
         }
 
