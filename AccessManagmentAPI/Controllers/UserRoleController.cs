@@ -44,5 +44,16 @@ namespace AccessManagmentAPI.Controllers
             }
             return Ok(data);
         }
+
+        [HttpGet("GetAllMenubyrole")]
+        public async Task<IActionResult> GetAllMenubyrole(string userrole)
+        {
+            var data = await this._userRole.GetAllMenubyrole(userrole);
+            if (data == null)
+            {
+                return NotFound();
+            }
+            return Ok(data);
+        }
     }
 }

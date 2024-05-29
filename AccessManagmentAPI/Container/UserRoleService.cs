@@ -1,5 +1,6 @@
 ﻿using AccessManagmentAPI.Context;
 using AccessManagmentAPI.Helper;
+using AccessManagmentAPI.Models;
 using AccessManagmentAPI.Repos.Models;
 using AccessManagmentAPI.Service;
 using Microsoft.EntityFrameworkCore;
@@ -66,6 +67,27 @@ namespace AccessManagmentAPI.Container
             }
            
             return response;
+        }
+
+        public async Task<List<Appmenu>> GetAllMenubyrole(string userrole)
+        {
+            List<Appmenu> appmenus = new List<Appmenu>();
+            var accessdata = (from menu in this._contetxtDb.TblRolepermissions.Where(o => o.Userrole == userrole && o.Haveview) 
+                              join m in this._contetxtDb.TblMenus on menu.Menucode equals m.Code into _jointable
+                              from p in _jointable.DefaultIfEmpty()
+                              select new {code=menu.Menucode, name=p.Name}).ToList();
+            if (accessdata.Any())
+            {
+                accessdata.ForEach(item =>
+                {
+                    appmenus.Add(new Appmenu()
+                    {
+                        code = item.code,
+                        Name = item.name,
+                    });
+                });
+            }
+            return appmenus;
         }
 
         public async Task<List<TblMenu>> GetAllMenus()
