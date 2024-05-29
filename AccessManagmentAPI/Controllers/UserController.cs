@@ -33,7 +33,14 @@ namespace AccessManagmentAPI.Controllers
             return Ok(data);
         }
 
-        
+        [HttpPost("resetpassword")]
+        public async Task<IActionResult> resetpassword( string username, string oldpassword, string newpassword)
+        {
+            var data = await this.userService.ResetPassword( username, oldpassword, newpassword);
+            return Ok(data);
+        }
+
+
         //[HttpGet]
         //public async Task<ActionResult<IEnumerable<Userregister>>> Getalluser()
         //{

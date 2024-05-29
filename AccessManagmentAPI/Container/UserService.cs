@@ -154,5 +154,49 @@ namespace AccessManagmentAPI.Container
         {
 
         }
+
+        public async Task<APIResponse> ResetPassword(string username, string oldpassword, string newpassword)
+        {
+            APIResponse response = new APIResponse();
+            var _user = await this._contetxtDb.TblUsers.FirstOrDefaultAsync(item => item.Username == username && item.Password == oldpassword && item.Isactive == true);
+            if (_user != null) 
+            {
+                var _pwdhistory = await Validatepwdhistory(username, newpassword);
+                if (_pwdhistory)
+                {
+                    response.Result = "Fail";
+                    response.Message = "Don't use the same password that used in last 3 transaction";
+                }
+                else
+                {
+                    _user.Password = newpassword;
+                    await this._contetxtDb.SaveChangesAsync();
+                    await UpdatePWDManager(username, newpassword);
+                    response.Result = "pass";
+                    response.Message = "Password changed.";
+                }
+            }
+            else
+            {
+                response.Result = "Fail";
+                response.Message = "Failed to validate old password.";
+            }
+            return response;
+        }
+
+        private async Task <bool>Validatepwdhistory(string Username, string password)
+        {
+            bool response = false;
+            var _pwd=await this._contetxtDb.TblPwdMangers.Where(item=>item.Username==Username).OrderByDescending(p=>p.ModifyDate).Take(3).ToListAsync();
+            if (_pwd.Count>0)
+            {
+                var validate = _pwd.Where(o => o.Password == password);
+                if (validate.Any())
+                {
+                    response = true;
+                }
+            }
+            return response;
+        }
     }
 }
