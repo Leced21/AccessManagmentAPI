@@ -53,6 +53,21 @@ namespace AccessManagmentAPI.Controllers
             return Ok(data);
         }
 
+        [HttpPost("updatestatus")]
+        public async Task<IActionResult> updatestatus(string username, bool status)
+        {
+            var data = await this.userService.UpdateStatus(username, status);
+            return Ok(data);
+        }
+
+        [HttpPost("updaterole")]
+        public async Task<IActionResult> updaterole(string username, string role)
+        {
+            var data = await this.userService.UpdateRole(username, role);
+            return Ok(data);
+        }
+
+
 
 
         //[HttpGet]

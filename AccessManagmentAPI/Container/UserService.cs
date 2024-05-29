@@ -251,5 +251,43 @@ namespace AccessManagmentAPI.Container
             }
             return response;
         }
+
+        public async Task<APIResponse> UpdateStatus(string username, bool userstatus)
+        {
+            APIResponse response = new APIResponse();
+            var _user=await this._contetxtDb.TblUsers.FirstOrDefaultAsync(item=>item.Username==username);
+            if(_user != null)
+            {
+                _user.Isactive = userstatus;
+                await this._contetxtDb.SaveChangesAsync();
+                response.Result = "Pass";
+                response.Message = "User Status changed";
+            }
+            else
+            {
+                response.Result = "Fail";
+                response.Message = "Invalid User";
+            }
+            return response;
+        }
+
+        public async Task<APIResponse> UpdateRole(string username, string userrole)
+        {
+            APIResponse response = new APIResponse();
+            var _user = await this._contetxtDb.TblUsers.FirstOrDefaultAsync(item => item.Username == username);
+            if (_user != null)
+            {
+                _user.Role = userrole;
+                await this._contetxtDb.SaveChangesAsync();
+                response.Result = "Pass";
+                response.Message = "User Role changed";
+            }
+            else
+            {
+                response.Result = "Fail";
+                response.Message = "Invalid User";
+            }
+            return response;
+        }
     }
 }
