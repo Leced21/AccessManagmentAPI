@@ -3,17 +3,23 @@
   "WorkspaceRootPath": "E:\\Bureau\\NewApp\\Angular-Project\\AccessManagmentAPI\\",
   "Documents": [
     {
-      "AbsoluteMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|ViewDataWindow_MSSQL__/_localdb__MSSQLLocalDB/AccessManagment/True/SqlTable/dbo.tbl_pwdManger.sql||{0058A1F7-65F3-4DB9-B3D0-CA7E64DD73CD}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|ViewDataWindow_MSSQL__/_localdb__MSSQLLocalDB/AccessManagment/True/SqlTable/dbo.tbl_user.sql||{0058A1F7-65F3-4DB9-B3D0-CA7E64DD73CD}"
-    },
-    {
       "AbsoluteMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|ViewDataWindow_MSSQL__/_localdb__MSSQLLocalDB/AccessManagment/True/SqlTable/dbo.tbl_otpManager.sql||{0058A1F7-65F3-4DB9-B3D0-CA7E64DD73CD}"
     },
     {
       "AbsoluteMoniker": "D:0:0:{BDA16A83-3ABB-4BB6-85EA-437848972A04}|AccessManagmentAPI\\AccessManagmentAPI.csproj|e:\\bureau\\newapp\\angular-project\\accessmanagmentapi\\accessmanagmentapi\\container\\userservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{BDA16A83-3ABB-4BB6-85EA-437848972A04}|AccessManagmentAPI\\AccessManagmentAPI.csproj|solutionrelative:accessmanagmentapi\\container\\userservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{BDA16A83-3ABB-4BB6-85EA-437848972A04}|AccessManagmentAPI\\AccessManagmentAPI.csproj|e:\\bureau\\newapp\\angular-project\\accessmanagmentapi\\accessmanagmentapi\\controllers\\usercontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{BDA16A83-3ABB-4BB6-85EA-437848972A04}|AccessManagmentAPI\\AccessManagmentAPI.csproj|solutionrelative:accessmanagmentapi\\controllers\\usercontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{BDA16A83-3ABB-4BB6-85EA-437848972A04}|AccessManagmentAPI\\AccessManagmentAPI.csproj|e:\\bureau\\newapp\\angular-project\\accessmanagmentapi\\accessmanagmentapi\\service\\iuserservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{BDA16A83-3ABB-4BB6-85EA-437848972A04}|AccessManagmentAPI\\AccessManagmentAPI.csproj|solutionrelative:accessmanagmentapi\\service\\iuserservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{BDA16A83-3ABB-4BB6-85EA-437848972A04}|AccessManagmentAPI\\AccessManagmentAPI.csproj|e:\\bureau\\newapp\\angular-project\\accessmanagmentapi\\accessmanagmentapi\\container\\userroleservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{BDA16A83-3ABB-4BB6-85EA-437848972A04}|AccessManagmentAPI\\AccessManagmentAPI.csproj|solutionrelative:accessmanagmentapi\\container\\userroleservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
       "AbsoluteMoniker": "D:0:0:{BDA16A83-3ABB-4BB6-85EA-437848972A04}|AccessManagmentAPI\\AccessManagmentAPI.csproj|e:\\bureau\\newapp\\angular-project\\accessmanagmentapi\\accessmanagmentapi\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
@@ -22,14 +28,6 @@
     {
       "AbsoluteMoniker": "D:0:0:{BDA16A83-3ABB-4BB6-85EA-437848972A04}|AccessManagmentAPI\\AccessManagmentAPI.csproj|e:\\bureau\\newapp\\angular-project\\accessmanagmentapi\\accessmanagmentapi\\models\\customermodal.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{BDA16A83-3ABB-4BB6-85EA-437848972A04}|AccessManagmentAPI\\AccessManagmentAPI.csproj|solutionrelative:accessmanagmentapi\\models\\customermodal.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{BDA16A83-3ABB-4BB6-85EA-437848972A04}|AccessManagmentAPI\\AccessManagmentAPI.csproj|e:\\bureau\\newapp\\angular-project\\accessmanagmentapi\\accessmanagmentapi\\container\\userroleservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{BDA16A83-3ABB-4BB6-85EA-437848972A04}|AccessManagmentAPI\\AccessManagmentAPI.csproj|solutionrelative:accessmanagmentapi\\container\\userroleservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{BDA16A83-3ABB-4BB6-85EA-437848972A04}|AccessManagmentAPI\\AccessManagmentAPI.csproj|e:\\bureau\\newapp\\angular-project\\accessmanagmentapi\\accessmanagmentapi\\controllers\\usercontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{BDA16A83-3ABB-4BB6-85EA-437848972A04}|AccessManagmentAPI\\AccessManagmentAPI.csproj|solutionrelative:accessmanagmentapi\\controllers\\usercontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
       "AbsoluteMoniker": "D:0:0:{BDA16A83-3ABB-4BB6-85EA-437848972A04}|AccessManagmentAPI\\AccessManagmentAPI.csproj|e:\\bureau\\newapp\\angular-project\\accessmanagmentapi\\accessmanagmentapi\\repos\\models\\tblrefreshtoken.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
@@ -62,10 +60,6 @@
     {
       "AbsoluteMoniker": "D:0:0:{BDA16A83-3ABB-4BB6-85EA-437848972A04}|AccessManagmentAPI\\AccessManagmentAPI.csproj|e:\\bureau\\newapp\\angular-project\\accessmanagmentapi\\accessmanagmentapi\\helper\\apiresponse.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{BDA16A83-3ABB-4BB6-85EA-437848972A04}|AccessManagmentAPI\\AccessManagmentAPI.csproj|solutionrelative:accessmanagmentapi\\helper\\apiresponse.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{BDA16A83-3ABB-4BB6-85EA-437848972A04}|AccessManagmentAPI\\AccessManagmentAPI.csproj|e:\\bureau\\newapp\\angular-project\\accessmanagmentapi\\accessmanagmentapi\\service\\iuserservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{BDA16A83-3ABB-4BB6-85EA-437848972A04}|AccessManagmentAPI\\AccessManagmentAPI.csproj|solutionrelative:accessmanagmentapi\\service\\iuserservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
       "AbsoluteMoniker": "D:0:0:{BDA16A83-3ABB-4BB6-85EA-437848972A04}|AccessManagmentAPI\\AccessManagmentAPI.csproj|e:\\bureau\\newapp\\angular-project\\accessmanagmentapi\\accessmanagmentapi\\container\\customerservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
@@ -112,110 +106,16 @@
             {
               "$type": "Document",
               "DocumentIndex": 0,
-              "Title": "dbo.tbl_pwdManger [Donn\u00E9es]",
-              "DocumentMoniker": "ViewDataWindow_MSSQL__/_localdb__MSSQLLocalDB/AccessManagment/True/SqlTable/dbo.tbl_pwdManger.sql",
-              "ToolTip": "dbo.tbl_pwdManger [Donn\u00E9es]",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000826|",
-              "WhenOpened": "2024-05-28T15:48:56.969Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 1,
-              "Title": "dbo.tbl_user [Donn\u00E9es]",
-              "DocumentMoniker": "ViewDataWindow_MSSQL__/_localdb__MSSQLLocalDB/AccessManagment/True/SqlTable/dbo.tbl_user.sql",
-              "ToolTip": "dbo.tbl_user [Donn\u00E9es]",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000826|",
-              "WhenOpened": "2024-05-28T15:48:14.577Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 2,
               "Title": "dbo.tbl_otpManager [Donn\u00E9es]",
               "DocumentMoniker": "ViewDataWindow_MSSQL__/_localdb__MSSQLLocalDB/AccessManagment/True/SqlTable/dbo.tbl_otpManager.sql",
               "ToolTip": "dbo.tbl_otpManager [Donn\u00E9es]",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000826|",
-              "WhenOpened": "2024-05-28T15:45:25.977Z",
+              "WhenOpened": "2024-05-29T09:38:10.928Z",
               "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 3,
-              "Title": "UserService.cs",
-              "DocumentMoniker": "E:\\Bureau\\NewApp\\Angular-Project\\AccessManagmentAPI\\AccessManagmentAPI\\Container\\UserService.cs",
-              "RelativeDocumentMoniker": "AccessManagmentAPI\\Container\\UserService.cs",
-              "ToolTip": "E:\\Bureau\\NewApp\\Angular-Project\\AccessManagmentAPI\\AccessManagmentAPI\\Container\\UserService.cs",
-              "RelativeToolTip": "AccessManagmentAPI\\Container\\UserService.cs",
-              "ViewState": "AQIAADAAAAAAAAAAAAAqwEwAAAA5AAAA",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-05-28T10:50:06.219Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 7,
-              "Title": "UserController.cs",
-              "DocumentMoniker": "E:\\Bureau\\NewApp\\Angular-Project\\AccessManagmentAPI\\AccessManagmentAPI\\Controllers\\UserController.cs",
-              "RelativeDocumentMoniker": "AccessManagmentAPI\\Controllers\\UserController.cs",
-              "ToolTip": "E:\\Bureau\\NewApp\\Angular-Project\\AccessManagmentAPI\\AccessManagmentAPI\\Controllers\\UserController.cs",
-              "RelativeToolTip": "AccessManagmentAPI\\Controllers\\UserController.cs",
-              "ViewState": "AQIAAD4AAAAAAAAAAAAiwF0AAAAEAAAA",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-05-27T11:01:40.04Z"
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 4,
-              "Title": "Program.cs",
-              "DocumentMoniker": "E:\\Bureau\\NewApp\\Angular-Project\\AccessManagmentAPI\\AccessManagmentAPI\\Program.cs",
-              "RelativeDocumentMoniker": "AccessManagmentAPI\\Program.cs",
-              "ToolTip": "E:\\Bureau\\NewApp\\Angular-Project\\AccessManagmentAPI\\AccessManagmentAPI\\Program.cs",
-              "RelativeToolTip": "AccessManagmentAPI\\Program.cs",
-              "ViewState": "AQIAAAkAAAAAAAAAAAAAABAAAABAAAAA",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-05-28T08:37:53.939Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 6,
-              "Title": "UserRoleService.cs",
-              "DocumentMoniker": "E:\\Bureau\\NewApp\\Angular-Project\\AccessManagmentAPI\\AccessManagmentAPI\\Container\\UserRoleService.cs",
-              "RelativeDocumentMoniker": "AccessManagmentAPI\\Container\\UserRoleService.cs",
-              "ToolTip": "E:\\Bureau\\NewApp\\Angular-Project\\AccessManagmentAPI\\AccessManagmentAPI\\Container\\UserRoleService.cs",
-              "RelativeToolTip": "AccessManagmentAPI\\Container\\UserRoleService.cs",
-              "ViewState": "AQIAAAAAAAAAAAAAAAAqwAQAAAAyAAAA",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-05-28T10:52:41.066Z"
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 5,
-              "Title": "Customermodal.cs",
-              "DocumentMoniker": "E:\\Bureau\\NewApp\\Angular-Project\\AccessManagmentAPI\\AccessManagmentAPI\\Models\\Customermodal.cs",
-              "RelativeDocumentMoniker": "AccessManagmentAPI\\Models\\Customermodal.cs",
-              "ToolTip": "E:\\Bureau\\NewApp\\Angular-Project\\AccessManagmentAPI\\AccessManagmentAPI\\Models\\Customermodal.cs",
-              "RelativeToolTip": "AccessManagmentAPI\\Models\\Customermodal.cs",
-              "ViewState": "AQIAAAAAAAAAAAAAAAAAAB8AAAAFAAAA",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-05-28T11:01:00.754Z"
             },
             {
               "$type": "Document",
               "DocumentIndex": 8,
-              "Title": "TblRefreshtoken.cs",
-              "DocumentMoniker": "E:\\Bureau\\NewApp\\Angular-Project\\AccessManagmentAPI\\AccessManagmentAPI\\Repos\\Models\\TblRefreshtoken.cs",
-              "RelativeDocumentMoniker": "AccessManagmentAPI\\Repos\\Models\\TblRefreshtoken.cs",
-              "ToolTip": "E:\\Bureau\\NewApp\\Angular-Project\\AccessManagmentAPI\\AccessManagmentAPI\\Repos\\Models\\TblRefreshtoken.cs",
-              "RelativeToolTip": "AccessManagmentAPI\\Repos\\Models\\TblRefreshtoken.cs",
-              "ViewState": "AQIAAAYAAAAAAAAAAAAgwBcAAAAFAAAA",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-05-28T13:44:30.87Z"
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 9,
               "Title": "TblPwdManger.cs",
               "DocumentMoniker": "E:\\Bureau\\NewApp\\Angular-Project\\AccessManagmentAPI\\AccessManagmentAPI\\Repos\\Models\\TblPwdManger.cs",
               "RelativeDocumentMoniker": "AccessManagmentAPI\\Repos\\Models\\TblPwdManger.cs",
@@ -227,7 +127,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 10,
+              "DocumentIndex": 9,
               "Title": "TblProductimage.cs",
               "DocumentMoniker": "E:\\Bureau\\NewApp\\Angular-Project\\AccessManagmentAPI\\AccessManagmentAPI\\Repos\\Models\\TblProductimage.cs",
               "RelativeDocumentMoniker": "AccessManagmentAPI\\Repos\\Models\\TblProductimage.cs",
@@ -239,7 +139,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 11,
+              "DocumentIndex": 10,
               "Title": "TblProduct.cs",
               "DocumentMoniker": "E:\\Bureau\\NewApp\\Angular-Project\\AccessManagmentAPI\\AccessManagmentAPI\\Repos\\Models\\TblProduct.cs",
               "RelativeDocumentMoniker": "AccessManagmentAPI\\Repos\\Models\\TblProduct.cs",
@@ -251,7 +151,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 12,
+              "DocumentIndex": 11,
               "Title": "TblOtpManager.cs",
               "DocumentMoniker": "E:\\Bureau\\NewApp\\Angular-Project\\AccessManagmentAPI\\AccessManagmentAPI\\Repos\\Models\\TblOtpManager.cs",
               "RelativeDocumentMoniker": "AccessManagmentAPI\\Repos\\Models\\TblOtpManager.cs",
@@ -263,7 +163,95 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 13,
+              "DocumentIndex": 2,
+              "Title": "UserController.cs",
+              "DocumentMoniker": "E:\\Bureau\\NewApp\\Angular-Project\\AccessManagmentAPI\\AccessManagmentAPI\\Controllers\\UserController.cs",
+              "RelativeDocumentMoniker": "AccessManagmentAPI\\Controllers\\UserController.cs",
+              "ToolTip": "E:\\Bureau\\NewApp\\Angular-Project\\AccessManagmentAPI\\AccessManagmentAPI\\Controllers\\UserController.cs",
+              "RelativeToolTip": "AccessManagmentAPI\\Controllers\\UserController.cs",
+              "ViewState": "AQIAABsAAAAAAAAAAAAjwCkAAAAAAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-05-27T11:01:40.04Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 1,
+              "Title": "UserService.cs",
+              "DocumentMoniker": "E:\\Bureau\\NewApp\\Angular-Project\\AccessManagmentAPI\\AccessManagmentAPI\\Container\\UserService.cs",
+              "RelativeDocumentMoniker": "AccessManagmentAPI\\Container\\UserService.cs",
+              "ToolTip": "E:\\Bureau\\NewApp\\Angular-Project\\AccessManagmentAPI\\AccessManagmentAPI\\Container\\UserService.cs",
+              "RelativeToolTip": "AccessManagmentAPI\\Container\\UserService.cs",
+              "ViewState": "AQIAAO4AAAAAAAAAAADwv/gAAAAkAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-05-28T10:50:06.219Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 7,
+              "Title": "TblRefreshtoken.cs",
+              "DocumentMoniker": "E:\\Bureau\\NewApp\\Angular-Project\\AccessManagmentAPI\\AccessManagmentAPI\\Repos\\Models\\TblRefreshtoken.cs",
+              "RelativeDocumentMoniker": "AccessManagmentAPI\\Repos\\Models\\TblRefreshtoken.cs",
+              "ToolTip": "E:\\Bureau\\NewApp\\Angular-Project\\AccessManagmentAPI\\AccessManagmentAPI\\Repos\\Models\\TblRefreshtoken.cs",
+              "RelativeToolTip": "AccessManagmentAPI\\Repos\\Models\\TblRefreshtoken.cs",
+              "ViewState": "AQIAAAYAAAAAAAAAAAAgwBcAAAAFAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-05-28T13:44:30.87Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 6,
+              "Title": "Customermodal.cs",
+              "DocumentMoniker": "E:\\Bureau\\NewApp\\Angular-Project\\AccessManagmentAPI\\AccessManagmentAPI\\Models\\Customermodal.cs",
+              "RelativeDocumentMoniker": "AccessManagmentAPI\\Models\\Customermodal.cs",
+              "ToolTip": "E:\\Bureau\\NewApp\\Angular-Project\\AccessManagmentAPI\\AccessManagmentAPI\\Models\\Customermodal.cs",
+              "RelativeToolTip": "AccessManagmentAPI\\Models\\Customermodal.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAB8AAAAFAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-05-28T11:01:00.754Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 4,
+              "Title": "UserRoleService.cs",
+              "DocumentMoniker": "E:\\Bureau\\NewApp\\Angular-Project\\AccessManagmentAPI\\AccessManagmentAPI\\Container\\UserRoleService.cs",
+              "RelativeDocumentMoniker": "AccessManagmentAPI\\Container\\UserRoleService.cs",
+              "ToolTip": "E:\\Bureau\\NewApp\\Angular-Project\\AccessManagmentAPI\\AccessManagmentAPI\\Container\\UserRoleService.cs",
+              "RelativeToolTip": "AccessManagmentAPI\\Container\\UserRoleService.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAqwAQAAAAyAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-05-28T10:52:41.066Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 3,
+              "Title": "IUserService.cs",
+              "DocumentMoniker": "E:\\Bureau\\NewApp\\Angular-Project\\AccessManagmentAPI\\AccessManagmentAPI\\Service\\IUserService.cs",
+              "RelativeDocumentMoniker": "AccessManagmentAPI\\Service\\IUserService.cs",
+              "ToolTip": "E:\\Bureau\\NewApp\\Angular-Project\\AccessManagmentAPI\\AccessManagmentAPI\\Service\\IUserService.cs",
+              "RelativeToolTip": "AccessManagmentAPI\\Service\\IUserService.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAqwAkAAAAaAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-05-28T10:48:45.576Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 5,
+              "Title": "Program.cs",
+              "DocumentMoniker": "E:\\Bureau\\NewApp\\Angular-Project\\AccessManagmentAPI\\AccessManagmentAPI\\Program.cs",
+              "RelativeDocumentMoniker": "AccessManagmentAPI\\Program.cs",
+              "ToolTip": "E:\\Bureau\\NewApp\\Angular-Project\\AccessManagmentAPI\\AccessManagmentAPI\\Program.cs",
+              "RelativeToolTip": "AccessManagmentAPI\\Program.cs",
+              "ViewState": "AQIAAAkAAAAAAAAAAAAAABAAAABAAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-05-28T08:37:53.939Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 12,
               "Title": "TblMenu.cs",
               "DocumentMoniker": "E:\\Bureau\\NewApp\\Angular-Project\\AccessManagmentAPI\\AccessManagmentAPI\\Repos\\Models\\TblMenu.cs",
               "RelativeDocumentMoniker": "AccessManagmentAPI\\Repos\\Models\\TblMenu.cs",
@@ -275,7 +263,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 14,
+              "DocumentIndex": 13,
               "Title": "TblCustomer.cs",
               "DocumentMoniker": "E:\\Bureau\\NewApp\\Angular-Project\\AccessManagmentAPI\\AccessManagmentAPI\\Repos\\Models\\TblCustomer.cs",
               "RelativeDocumentMoniker": "AccessManagmentAPI\\Repos\\Models\\TblCustomer.cs",
@@ -287,7 +275,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 15,
+              "DocumentIndex": 14,
               "Title": "APIResponse.cs",
               "DocumentMoniker": "E:\\Bureau\\NewApp\\Angular-Project\\AccessManagmentAPI\\AccessManagmentAPI\\Helper\\APIResponse.cs",
               "RelativeDocumentMoniker": "AccessManagmentAPI\\Helper\\APIResponse.cs",
@@ -299,7 +287,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 18,
+              "DocumentIndex": 16,
               "Title": "RefreshHandler.cs",
               "DocumentMoniker": "E:\\Bureau\\NewApp\\Angular-Project\\AccessManagmentAPI\\AccessManagmentAPI\\Container\\RefreshHandler.cs",
               "RelativeDocumentMoniker": "AccessManagmentAPI\\Container\\RefreshHandler.cs",
@@ -311,7 +299,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 17,
+              "DocumentIndex": 15,
               "Title": "CustomerService.cs",
               "DocumentMoniker": "E:\\Bureau\\NewApp\\Angular-Project\\AccessManagmentAPI\\AccessManagmentAPI\\Container\\CustomerService.cs",
               "RelativeDocumentMoniker": "AccessManagmentAPI\\Container\\CustomerService.cs",
@@ -323,19 +311,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 16,
-              "Title": "IUserService.cs",
-              "DocumentMoniker": "E:\\Bureau\\NewApp\\Angular-Project\\AccessManagmentAPI\\AccessManagmentAPI\\Service\\IUserService.cs",
-              "RelativeDocumentMoniker": "AccessManagmentAPI\\Service\\IUserService.cs",
-              "ToolTip": "E:\\Bureau\\NewApp\\Angular-Project\\AccessManagmentAPI\\AccessManagmentAPI\\Service\\IUserService.cs",
-              "RelativeToolTip": "AccessManagmentAPI\\Service\\IUserService.cs",
-              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAgAAABXAAAA",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-05-28T10:48:45.576Z"
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 20,
+              "DocumentIndex": 18,
               "Title": "IUserRoleServices.cs",
               "DocumentMoniker": "E:\\Bureau\\NewApp\\Angular-Project\\AccessManagmentAPI\\AccessManagmentAPI\\Service\\IUserRoleServices.cs",
               "RelativeDocumentMoniker": "AccessManagmentAPI\\Service\\IUserRoleServices.cs",
@@ -347,7 +323,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 21,
+              "DocumentIndex": 19,
               "Title": "IRefreshHandler.cs",
               "DocumentMoniker": "E:\\Bureau\\NewApp\\Angular-Project\\AccessManagmentAPI\\AccessManagmentAPI\\Service\\IRefreshHandler.cs",
               "RelativeDocumentMoniker": "AccessManagmentAPI\\Service\\IRefreshHandler.cs",
@@ -359,7 +335,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 22,
+              "DocumentIndex": 20,
               "Title": "ICustomerService.cs",
               "DocumentMoniker": "E:\\Bureau\\NewApp\\Angular-Project\\AccessManagmentAPI\\AccessManagmentAPI\\Service\\ICustomerService.cs",
               "RelativeDocumentMoniker": "AccessManagmentAPI\\Service\\ICustomerService.cs",
@@ -371,7 +347,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 19,
+              "DocumentIndex": 17,
               "Title": "UserRegister.cs",
               "DocumentMoniker": "E:\\Bureau\\NewApp\\Angular-Project\\AccessManagmentAPI\\AccessManagmentAPI\\Models\\UserRegister.cs",
               "RelativeDocumentMoniker": "AccessManagmentAPI\\Models\\UserRegister.cs",
@@ -383,7 +359,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 23,
+              "DocumentIndex": 21,
               "Title": "UserRoleController.cs",
               "DocumentMoniker": "E:\\Bureau\\NewApp\\Angular-Project\\AccessManagmentAPI\\AccessManagmentAPI\\Controllers\\UserRoleController.cs",
               "RelativeDocumentMoniker": "AccessManagmentAPI\\Controllers\\UserRoleController.cs",
@@ -395,7 +371,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 24,
+              "DocumentIndex": 22,
               "Title": "appsettings.json",
               "DocumentMoniker": "E:\\Bureau\\NewApp\\Angular-Project\\AccessManagmentAPI\\AccessManagmentAPI\\appsettings.json",
               "RelativeDocumentMoniker": "AccessManagmentAPI\\appsettings.json",

@@ -40,6 +40,20 @@ namespace AccessManagmentAPI.Controllers
             return Ok(data);
         }
 
+        [HttpPost("forgetpassword")]
+        public async Task<IActionResult> forgetpassword(string username)
+        {
+            var data = await this.userService.ForgetPassword(username );
+            return Ok(data);
+        }
+        [HttpPost("updatepassword")]
+        public async Task<IActionResult> updatepassword(string username, string password, string otptext)
+        {
+            var data = await this.userService.UpdatePassword(username,password, otptext );
+            return Ok(data);
+        }
+
+
 
         //[HttpGet]
         //public async Task<ActionResult<IEnumerable<Userregister>>> Getalluser()

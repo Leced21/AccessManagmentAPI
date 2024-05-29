@@ -198,5 +198,58 @@ namespace AccessManagmentAPI.Container
             }
             return response;
         }
+
+        public async Task<APIResponse> ForgetPassword(string username)
+        {
+            APIResponse response = new APIResponse();
+            var _user = await this._contetxtDb.TblUsers.FirstOrDefaultAsync(item => item.Username == username && item.Isactive == true);
+            if (_user != null) 
+            {
+                string optext = Generaterandomnulber();
+                await UpdateOtp(username, optext, "forgetpassword");
+                SendOtpMail(_user.Email, optext, _user.Name);
+                response.Result = "pass";
+                response.Message = "OTP sent";
+            }
+            else
+            {
+                response.Result = "Fail";
+                response.Message = "Invalid User";
+            }
+            return response;
+        }
+
+        public async Task<APIResponse> UpdatePassword(string username, string Password, string Otptext)
+        {
+            APIResponse response = new APIResponse();
+            bool otpvalidation = await ValidateOTP(username, Otptext);
+            if (otpvalidation)
+            {
+                bool pwdhistory = await Validatepwdhistory(username, Password);
+                if (pwdhistory)
+                {
+                    response.Result = "Fail";
+                    response.Message = "Don't use the same password that used in last 3 transaction";
+                }
+                else
+                {
+                    var _user = await this._contetxtDb.TblUsers.FirstOrDefaultAsync(item => item.Username == username && item.Isactive == true);
+                    if (_user != null)
+                    {
+                        _user.Password = Password;
+                        await this._contetxtDb.SaveChangesAsync();
+                        await UpdatePWDManager(username, Password);
+                        response.Result = "pass";
+                        response.Message = "Password changed";
+                    }
+                }
+            }
+            else
+            {
+                response.Result = "Fail";
+                response.Message = "Invalid OTP";
+            }
+            return response;
+        }
     }
 }
