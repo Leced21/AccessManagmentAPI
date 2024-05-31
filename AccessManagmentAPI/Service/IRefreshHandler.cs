@@ -1,6 +1,7 @@
 ﻿namespace AccessManagmentAPI.Service
 {
-    public class IRefreshHandler
+    public interface IRefreshHandler
     {
+        Task<string> GenerateToken(string username);
     }
 }

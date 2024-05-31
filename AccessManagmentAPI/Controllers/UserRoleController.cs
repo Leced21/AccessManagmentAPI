@@ -45,10 +45,21 @@ namespace AccessManagmentAPI.Controllers
             return Ok(data);
         }
 
-        [HttpGet("GetAllMenubyrole")]
-        public async Task<IActionResult> GetAllMenubyrole(string userrole)
+        [HttpGet("GetAllMenusbyrole")]
+        public async Task<IActionResult> GetAllMenusbyrole(string userrole)
         {
-            var data = await this._userRole.GetAllMenubyrole(userrole);
+            var data = await this._userRole.GetAllMenusbyrole(userrole);
+            if (data == null)
+            {
+                return NotFound();
+            }
+            return Ok(data);
+        }
+
+        [HttpGet("GetMenupermissionbyrole")]
+        public async Task<IActionResult> GetAllMGetMenupermissionbyroleenubyrole(string userrole, string menucode)
+        {
+            var data = await this._userRole.GetMenupermissionbyrole(userrole, menucode);
             if (data == null)
             {
                 return NotFound();

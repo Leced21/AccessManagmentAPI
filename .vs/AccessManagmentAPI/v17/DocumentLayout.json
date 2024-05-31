@@ -3,14 +3,6 @@
   "WorkspaceRootPath": "E:\\Bureau\\NewApp\\Angular-Project\\AccessManagmentAPI\\",
   "Documents": [
     {
-      "AbsoluteMoniker": "D:0:0:{BDA16A83-3ABB-4BB6-85EA-437848972A04}|AccessManagmentAPI\\AccessManagmentAPI.csproj|e:\\bureau\\newapp\\angular-project\\accessmanagmentapi\\accessmanagmentapi\\container\\userroleservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{BDA16A83-3ABB-4BB6-85EA-437848972A04}|AccessManagmentAPI\\AccessManagmentAPI.csproj|solutionrelative:accessmanagmentapi\\container\\userroleservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{BDA16A83-3ABB-4BB6-85EA-437848972A04}|AccessManagmentAPI\\AccessManagmentAPI.csproj|e:\\bureau\\newapp\\angular-project\\accessmanagmentapi\\accessmanagmentapi\\controllers\\userrolecontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{BDA16A83-3ABB-4BB6-85EA-437848972A04}|AccessManagmentAPI\\AccessManagmentAPI.csproj|solutionrelative:accessmanagmentapi\\controllers\\userrolecontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
       "AbsoluteMoniker": "D:0:0:{BDA16A83-3ABB-4BB6-85EA-437848972A04}|AccessManagmentAPI\\AccessManagmentAPI.csproj|e:\\bureau\\newapp\\angular-project\\accessmanagmentapi\\accessmanagmentapi\\container\\userservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{BDA16A83-3ABB-4BB6-85EA-437848972A04}|AccessManagmentAPI\\AccessManagmentAPI.csproj|solutionrelative:accessmanagmentapi\\container\\userservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
@@ -19,44 +11,79 @@
       "RelativeMoniker": "D:0:0:{BDA16A83-3ABB-4BB6-85EA-437848972A04}|AccessManagmentAPI\\AccessManagmentAPI.csproj|solutionrelative:accessmanagmentapi\\controllers\\usercontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{BDA16A83-3ABB-4BB6-85EA-437848972A04}|AccessManagmentAPI\\AccessManagmentAPI.csproj|e:\\bureau\\newapp\\angular-project\\accessmanagmentapi\\accessmanagmentapi\\models\\appmenu.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{BDA16A83-3ABB-4BB6-85EA-437848972A04}|AccessManagmentAPI\\AccessManagmentAPI.csproj|solutionrelative:accessmanagmentapi\\models\\appmenu.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+      "AbsoluteMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|ViewDataWindow_MSSQL__/_localdb__MSSQLLocalDB/AccessManagment/True/SqlTable/dbo.tbl_otpManager.sql||{0058A1F7-65F3-4DB9-B3D0-CA7E64DD73CD}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{BDA16A83-3ABB-4BB6-85EA-437848972A04}|AccessManagmentAPI\\AccessManagmentAPI.csproj|e:\\bureau\\newapp\\angular-project\\accessmanagmentapi\\accessmanagmentapi\\service\\iuserroleservices.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{BDA16A83-3ABB-4BB6-85EA-437848972A04}|AccessManagmentAPI\\AccessManagmentAPI.csproj|solutionrelative:accessmanagmentapi\\service\\iuserroleservices.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{BDA16A83-3ABB-4BB6-85EA-437848972A04}|AccessManagmentAPI\\AccessManagmentAPI.csproj|e:\\bureau\\newapp\\angular-project\\accessmanagmentapi\\accessmanagmentapi\\service\\iuserservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{BDA16A83-3ABB-4BB6-85EA-437848972A04}|AccessManagmentAPI\\AccessManagmentAPI.csproj|solutionrelative:accessmanagmentapi\\service\\iuserservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+      "AbsoluteMoniker": "D:0:0:{BDA16A83-3ABB-4BB6-85EA-437848972A04}|AccessManagmentAPI\\AccessManagmentAPI.csproj|e:\\bureau\\newapp\\angular-project\\accessmanagmentapi\\accessmanagmentapi\\controllers\\authorizecontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{BDA16A83-3ABB-4BB6-85EA-437848972A04}|AccessManagmentAPI\\AccessManagmentAPI.csproj|solutionrelative:accessmanagmentapi\\controllers\\authorizecontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
       "AbsoluteMoniker": "D:0:0:{BDA16A83-3ABB-4BB6-85EA-437848972A04}|AccessManagmentAPI\\AccessManagmentAPI.csproj|e:\\bureau\\newapp\\angular-project\\accessmanagmentapi\\accessmanagmentapi\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{BDA16A83-3ABB-4BB6-85EA-437848972A04}|AccessManagmentAPI\\AccessManagmentAPI.csproj|solutionrelative:accessmanagmentapi\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{BDA16A83-3ABB-4BB6-85EA-437848972A04}|AccessManagmentAPI\\AccessManagmentAPI.csproj|e:\\bureau\\newapp\\angular-project\\accessmanagmentapi\\accessmanagmentapi\\models\\customermodal.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{BDA16A83-3ABB-4BB6-85EA-437848972A04}|AccessManagmentAPI\\AccessManagmentAPI.csproj|solutionrelative:accessmanagmentapi\\models\\customermodal.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+      "AbsoluteMoniker": "D:0:0:{BDA16A83-3ABB-4BB6-85EA-437848972A04}|AccessManagmentAPI\\AccessManagmentAPI.csproj|e:\\bureau\\newapp\\angular-project\\accessmanagmentapi\\accessmanagmentapi\\controllers\\userrolecontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{BDA16A83-3ABB-4BB6-85EA-437848972A04}|AccessManagmentAPI\\AccessManagmentAPI.csproj|solutionrelative:accessmanagmentapi\\controllers\\userrolecontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{BDA16A83-3ABB-4BB6-85EA-437848972A04}|AccessManagmentAPI\\AccessManagmentAPI.csproj|e:\\bureau\\newapp\\angular-project\\accessmanagmentapi\\accessmanagmentapi\\service\\iuserservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{BDA16A83-3ABB-4BB6-85EA-437848972A04}|AccessManagmentAPI\\AccessManagmentAPI.csproj|solutionrelative:accessmanagmentapi\\service\\iuserservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{BDA16A83-3ABB-4BB6-85EA-437848972A04}|AccessManagmentAPI\\AccessManagmentAPI.csproj|e:\\bureau\\newapp\\angular-project\\accessmanagmentapi\\accessmanagmentapi\\controllers\\customercontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{BDA16A83-3ABB-4BB6-85EA-437848972A04}|AccessManagmentAPI\\AccessManagmentAPI.csproj|solutionrelative:accessmanagmentapi\\controllers\\customercontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{BDA16A83-3ABB-4BB6-85EA-437848972A04}|AccessManagmentAPI\\AccessManagmentAPI.csproj|e:\\bureau\\newapp\\angular-project\\accessmanagmentapi\\accessmanagmentapi\\helper\\basicauthenticationhandler.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{BDA16A83-3ABB-4BB6-85EA-437848972A04}|AccessManagmentAPI\\AccessManagmentAPI.csproj|solutionrelative:accessmanagmentapi\\helper\\basicauthenticationhandler.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{BDA16A83-3ABB-4BB6-85EA-437848972A04}|AccessManagmentAPI\\AccessManagmentAPI.csproj|e:\\bureau\\newapp\\angular-project\\accessmanagmentapi\\accessmanagmentapi\\appsettings.json||{90A6B3A7-C1A3-4009-A288-E2FF89E96FA0}",
+      "RelativeMoniker": "D:0:0:{BDA16A83-3ABB-4BB6-85EA-437848972A04}|AccessManagmentAPI\\AccessManagmentAPI.csproj|solutionrelative:accessmanagmentapi\\appsettings.json||{90A6B3A7-C1A3-4009-A288-E2FF89E96FA0}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{BDA16A83-3ABB-4BB6-85EA-437848972A04}|AccessManagmentAPI\\AccessManagmentAPI.csproj|e:\\bureau\\newapp\\angular-project\\accessmanagmentapi\\accessmanagmentapi\\controllers\\productcontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{BDA16A83-3ABB-4BB6-85EA-437848972A04}|AccessManagmentAPI\\AccessManagmentAPI.csproj|solutionrelative:accessmanagmentapi\\controllers\\productcontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
       "AbsoluteMoniker": "D:0:0:{BDA16A83-3ABB-4BB6-85EA-437848972A04}|AccessManagmentAPI\\AccessManagmentAPI.csproj|e:\\bureau\\newapp\\angular-project\\accessmanagmentapi\\accessmanagmentapi\\container\\customerservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{BDA16A83-3ABB-4BB6-85EA-437848972A04}|AccessManagmentAPI\\AccessManagmentAPI.csproj|solutionrelative:accessmanagmentapi\\container\\customerservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{BDA16A83-3ABB-4BB6-85EA-437848972A04}|AccessManagmentAPI\\AccessManagmentAPI.csproj|e:\\bureau\\newapp\\angular-project\\accessmanagmentapi\\accessmanagmentapi\\models\\userregister.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{BDA16A83-3ABB-4BB6-85EA-437848972A04}|AccessManagmentAPI\\AccessManagmentAPI.csproj|solutionrelative:accessmanagmentapi\\models\\userregister.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+      "AbsoluteMoniker": "D:0:0:{BDA16A83-3ABB-4BB6-85EA-437848972A04}|AccessManagmentAPI\\AccessManagmentAPI.csproj|e:\\bureau\\newapp\\angular-project\\accessmanagmentapi\\accessmanagmentapi\\helper\\automapperhandler.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{BDA16A83-3ABB-4BB6-85EA-437848972A04}|AccessManagmentAPI\\AccessManagmentAPI.csproj|solutionrelative:accessmanagmentapi\\helper\\automapperhandler.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{BDA16A83-3ABB-4BB6-85EA-437848972A04}|AccessManagmentAPI\\AccessManagmentAPI.csproj|e:\\bureau\\newapp\\angular-project\\accessmanagmentapi\\accessmanagmentapi\\models\\jwtsettings.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{BDA16A83-3ABB-4BB6-85EA-437848972A04}|AccessManagmentAPI\\AccessManagmentAPI.csproj|solutionrelative:accessmanagmentapi\\models\\jwtsettings.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{BDA16A83-3ABB-4BB6-85EA-437848972A04}|AccessManagmentAPI\\AccessManagmentAPI.csproj|e:\\bureau\\newapp\\angular-project\\accessmanagmentapi\\accessmanagmentapi\\models\\usercred.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{BDA16A83-3ABB-4BB6-85EA-437848972A04}|AccessManagmentAPI\\AccessManagmentAPI.csproj|solutionrelative:accessmanagmentapi\\models\\usercred.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{BDA16A83-3ABB-4BB6-85EA-437848972A04}|AccessManagmentAPI\\AccessManagmentAPI.csproj|e:\\bureau\\newapp\\angular-project\\accessmanagmentapi\\accessmanagmentapi\\models\\usermodel.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{BDA16A83-3ABB-4BB6-85EA-437848972A04}|AccessManagmentAPI\\AccessManagmentAPI.csproj|solutionrelative:accessmanagmentapi\\models\\usermodel.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{BDA16A83-3ABB-4BB6-85EA-437848972A04}|AccessManagmentAPI\\AccessManagmentAPI.csproj|e:\\bureau\\newapp\\angular-project\\accessmanagmentapi\\accessmanagmentapi\\container\\refreshhandler.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{BDA16A83-3ABB-4BB6-85EA-437848972A04}|AccessManagmentAPI\\AccessManagmentAPI.csproj|solutionrelative:accessmanagmentapi\\container\\refreshhandler.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
       "AbsoluteMoniker": "D:0:0:{BDA16A83-3ABB-4BB6-85EA-437848972A04}|AccessManagmentAPI\\AccessManagmentAPI.csproj|e:\\bureau\\newapp\\angular-project\\accessmanagmentapi\\accessmanagmentapi\\service\\irefreshhandler.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{BDA16A83-3ABB-4BB6-85EA-437848972A04}|AccessManagmentAPI\\AccessManagmentAPI.csproj|solutionrelative:accessmanagmentapi\\service\\irefreshhandler.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{BDA16A83-3ABB-4BB6-85EA-437848972A04}|AccessManagmentAPI\\AccessManagmentAPI.csproj|e:\\bureau\\newapp\\angular-project\\accessmanagmentapi\\accessmanagmentapi\\service\\icustomerservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{BDA16A83-3ABB-4BB6-85EA-437848972A04}|AccessManagmentAPI\\AccessManagmentAPI.csproj|solutionrelative:accessmanagmentapi\\service\\icustomerservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+      "AbsoluteMoniker": "D:0:0:{BDA16A83-3ABB-4BB6-85EA-437848972A04}|AccessManagmentAPI\\AccessManagmentAPI.csproj|e:\\bureau\\newapp\\angular-project\\accessmanagmentapi\\accessmanagmentapi\\models\\appmenu.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{BDA16A83-3ABB-4BB6-85EA-437848972A04}|AccessManagmentAPI\\AccessManagmentAPI.csproj|solutionrelative:accessmanagmentapi\\models\\appmenu.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{BDA16A83-3ABB-4BB6-85EA-437848972A04}|AccessManagmentAPI\\AccessManagmentAPI.csproj|e:\\bureau\\newapp\\angular-project\\accessmanagmentapi\\accessmanagmentapi\\appsettings.json||{90A6B3A7-C1A3-4009-A288-E2FF89E96FA0}",
-      "RelativeMoniker": "D:0:0:{BDA16A83-3ABB-4BB6-85EA-437848972A04}|AccessManagmentAPI\\AccessManagmentAPI.csproj|solutionrelative:accessmanagmentapi\\appsettings.json||{90A6B3A7-C1A3-4009-A288-E2FF89E96FA0}"
+      "AbsoluteMoniker": "D:0:0:{BDA16A83-3ABB-4BB6-85EA-437848972A04}|AccessManagmentAPI\\AccessManagmentAPI.csproj|e:\\bureau\\newapp\\angular-project\\accessmanagmentapi\\accessmanagmentapi\\models\\customermodal.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{BDA16A83-3ABB-4BB6-85EA-437848972A04}|AccessManagmentAPI\\AccessManagmentAPI.csproj|solutionrelative:accessmanagmentapi\\models\\customermodal.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{BDA16A83-3ABB-4BB6-85EA-437848972A04}|AccessManagmentAPI\\AccessManagmentAPI.csproj|e:\\bureau\\newapp\\angular-project\\accessmanagmentapi\\accessmanagmentapi\\models\\userregister.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{BDA16A83-3ABB-4BB6-85EA-437848972A04}|AccessManagmentAPI\\AccessManagmentAPI.csproj|solutionrelative:accessmanagmentapi\\models\\userregister.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     }
   ],
   "DocumentGroupContainers": [
@@ -66,71 +93,120 @@
       "DocumentGroups": [
         {
           "DockedWidth": 200,
-          "SelectedChildIndex": 3,
+          "SelectedChildIndex": 7,
           "Children": [
             {
               "$type": "Document",
-              "DocumentIndex": 4,
-              "Title": "Appmenu.cs",
-              "DocumentMoniker": "E:\\Bureau\\NewApp\\Angular-Project\\AccessManagmentAPI\\AccessManagmentAPI\\Models\\Appmenu.cs",
-              "RelativeDocumentMoniker": "AccessManagmentAPI\\Models\\Appmenu.cs",
-              "ToolTip": "E:\\Bureau\\NewApp\\Angular-Project\\AccessManagmentAPI\\AccessManagmentAPI\\Models\\Appmenu.cs",
-              "RelativeToolTip": "AccessManagmentAPI\\Models\\Appmenu.cs",
-              "ViewState": "AQIAAAAAAAAAAAAAAAAqwAIAAAARAAAA",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-05-29T13:50:41.171Z",
+              "DocumentIndex": 2,
+              "Title": "dbo.tbl_otpManager [Donn\u00E9es]",
+              "DocumentMoniker": "ViewDataWindow_MSSQL__/_localdb__MSSQLLocalDB/AccessManagment/True/SqlTable/dbo.tbl_otpManager.sql",
+              "ToolTip": "dbo.tbl_otpManager [Donn\u00E9es]",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000826|",
+              "WhenOpened": "2024-05-31T10:03:21.033Z",
               "EditorCaption": ""
             },
             {
               "$type": "Document",
               "DocumentIndex": 3,
+              "Title": "AuthorizeController.cs",
+              "DocumentMoniker": "E:\\Bureau\\NewApp\\Angular-Project\\AccessManagmentAPI\\AccessManagmentAPI\\Controllers\\AuthorizeController.cs",
+              "RelativeDocumentMoniker": "AccessManagmentAPI\\Controllers\\AuthorizeController.cs",
+              "ToolTip": "E:\\Bureau\\NewApp\\Angular-Project\\AccessManagmentAPI\\AccessManagmentAPI\\Controllers\\AuthorizeController.cs",
+              "RelativeToolTip": "AccessManagmentAPI\\Controllers\\AuthorizeController.cs",
+              "ViewState": "AQIAABoAAAAAAAAAAAAQwCYAAAAZAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-05-31T08:34:49.329Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 7,
+              "Title": "CustomerController.cs",
+              "DocumentMoniker": "E:\\Bureau\\NewApp\\Angular-Project\\AccessManagmentAPI\\AccessManagmentAPI\\Controllers\\CustomerController.cs",
+              "RelativeDocumentMoniker": "AccessManagmentAPI\\Controllers\\CustomerController.cs",
+              "ToolTip": "E:\\Bureau\\NewApp\\Angular-Project\\AccessManagmentAPI\\AccessManagmentAPI\\Controllers\\CustomerController.cs",
+              "RelativeToolTip": "AccessManagmentAPI\\Controllers\\CustomerController.cs",
+              "ViewState": "AQIAABcAAAAAAAAAAAAQwBIAAAAyAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-05-30T08:03:19.111Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 4,
+              "Title": "Program.cs",
+              "DocumentMoniker": "E:\\Bureau\\NewApp\\Angular-Project\\AccessManagmentAPI\\AccessManagmentAPI\\Program.cs",
+              "RelativeDocumentMoniker": "AccessManagmentAPI\\Program.cs",
+              "ToolTip": "E:\\Bureau\\NewApp\\Angular-Project\\AccessManagmentAPI\\AccessManagmentAPI\\Program.cs",
+              "RelativeToolTip": "AccessManagmentAPI\\Program.cs",
+              "ViewState": "AQIAAHAAAAAAAAAAAAAqwIwAAAAVAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-05-28T08:37:53.939Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 8,
+              "Title": "BasicAuthenticationHandler.cs",
+              "DocumentMoniker": "E:\\Bureau\\NewApp\\Angular-Project\\AccessManagmentAPI\\AccessManagmentAPI\\Helper\\BasicAuthenticationHandler.cs",
+              "RelativeDocumentMoniker": "AccessManagmentAPI\\Helper\\BasicAuthenticationHandler.cs",
+              "ToolTip": "E:\\Bureau\\NewApp\\Angular-Project\\AccessManagmentAPI\\AccessManagmentAPI\\Helper\\BasicAuthenticationHandler.cs",
+              "RelativeToolTip": "AccessManagmentAPI\\Helper\\BasicAuthenticationHandler.cs",
+              "ViewState": "AQIAADgAAAAAAAAAAAASwEwAAAAFAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-05-30T07:39:12.724Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 11,
+              "Title": "CustomerService.cs",
+              "DocumentMoniker": "E:\\Bureau\\NewApp\\Angular-Project\\AccessManagmentAPI\\AccessManagmentAPI\\Container\\CustomerService.cs",
+              "RelativeDocumentMoniker": "AccessManagmentAPI\\Container\\CustomerService.cs",
+              "ToolTip": "E:\\Bureau\\NewApp\\Angular-Project\\AccessManagmentAPI\\AccessManagmentAPI\\Container\\CustomerService.cs",
+              "RelativeToolTip": "AccessManagmentAPI\\Container\\CustomerService.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAIBJwC4AAABGAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-05-28T10:49:34.274Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 1,
               "Title": "UserController.cs",
               "DocumentMoniker": "E:\\Bureau\\NewApp\\Angular-Project\\AccessManagmentAPI\\AccessManagmentAPI\\Controllers\\UserController.cs",
               "RelativeDocumentMoniker": "AccessManagmentAPI\\Controllers\\UserController.cs",
               "ToolTip": "E:\\Bureau\\NewApp\\Angular-Project\\AccessManagmentAPI\\AccessManagmentAPI\\Controllers\\UserController.cs",
               "RelativeToolTip": "AccessManagmentAPI\\Controllers\\UserController.cs",
-              "ViewState": "AQIAABsAAAAAAAAAAAAjwCkAAAAAAAAA",
+              "ViewState": "AQIAABIAAAAAAAAAAAAqwB8AAAAMAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
               "WhenOpened": "2024-05-27T11:01:40.04Z",
               "EditorCaption": ""
             },
             {
               "$type": "Document",
-              "DocumentIndex": 2,
+              "DocumentIndex": 0,
               "Title": "UserService.cs",
               "DocumentMoniker": "E:\\Bureau\\NewApp\\Angular-Project\\AccessManagmentAPI\\AccessManagmentAPI\\Container\\UserService.cs",
               "RelativeDocumentMoniker": "AccessManagmentAPI\\Container\\UserService.cs",
               "ToolTip": "E:\\Bureau\\NewApp\\Angular-Project\\AccessManagmentAPI\\AccessManagmentAPI\\Container\\UserService.cs",
               "RelativeToolTip": "AccessManagmentAPI\\Container\\UserService.cs",
-              "ViewState": "AQIAAAAAAAAAAAAAAAAAAP4AAABVAAAA",
+              "ViewState": "AQIAAAsAAAAAAAAAAAAQwCcAAAAlAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
               "WhenOpened": "2024-05-28T10:50:06.219Z",
               "EditorCaption": ""
             },
             {
               "$type": "Document",
-              "DocumentIndex": 0,
-              "Title": "UserRoleService.cs",
-              "DocumentMoniker": "E:\\Bureau\\NewApp\\Angular-Project\\AccessManagmentAPI\\AccessManagmentAPI\\Container\\UserRoleService.cs",
-              "RelativeDocumentMoniker": "AccessManagmentAPI\\Container\\UserRoleService.cs",
-              "ToolTip": "E:\\Bureau\\NewApp\\Angular-Project\\AccessManagmentAPI\\AccessManagmentAPI\\Container\\UserRoleService.cs",
-              "RelativeToolTip": "AccessManagmentAPI\\Container\\UserRoleService.cs",
-              "ViewState": "AQIAAEYAAAAAAAAAAADgv1kAAAATAAAA",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-05-28T10:52:41.066Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
               "DocumentIndex": 5,
-              "Title": "IUserRoleServices.cs",
-              "DocumentMoniker": "E:\\Bureau\\NewApp\\Angular-Project\\AccessManagmentAPI\\AccessManagmentAPI\\Service\\IUserRoleServices.cs",
-              "RelativeDocumentMoniker": "AccessManagmentAPI\\Service\\IUserRoleServices.cs",
-              "ToolTip": "E:\\Bureau\\NewApp\\Angular-Project\\AccessManagmentAPI\\AccessManagmentAPI\\Service\\IUserRoleServices.cs",
-              "RelativeToolTip": "AccessManagmentAPI\\Service\\IUserRoleServices.cs",
-              "ViewState": "AQIAAAAAAAAAAAAAAAAqwAwAAAA8AAAA",
+              "Title": "UserRoleController.cs",
+              "DocumentMoniker": "E:\\Bureau\\NewApp\\Angular-Project\\AccessManagmentAPI\\AccessManagmentAPI\\Controllers\\UserRoleController.cs",
+              "RelativeDocumentMoniker": "AccessManagmentAPI\\Controllers\\UserRoleController.cs",
+              "ToolTip": "E:\\Bureau\\NewApp\\Angular-Project\\AccessManagmentAPI\\AccessManagmentAPI\\Controllers\\UserRoleController.cs",
+              "RelativeToolTip": "AccessManagmentAPI\\Controllers\\UserRoleController.cs",
+              "ViewState": "AQIAABwAAAAAAAAAAAAswDIAAABIAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-05-28T10:48:30.689Z",
+              "WhenOpened": "2024-05-28T10:45:59.32Z",
               "EditorCaption": ""
             },
             {
@@ -141,50 +217,131 @@
               "RelativeDocumentMoniker": "AccessManagmentAPI\\Service\\IUserService.cs",
               "ToolTip": "E:\\Bureau\\NewApp\\Angular-Project\\AccessManagmentAPI\\AccessManagmentAPI\\Service\\IUserService.cs",
               "RelativeToolTip": "AccessManagmentAPI\\Service\\IUserService.cs",
-              "ViewState": "AQIAAAAAAAAAAAAAAAAqwAkAAAAaAAAA",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAqwAgAAAAaAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-05-28T10:48:45.576Z"
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 7,
-              "Title": "Program.cs",
-              "DocumentMoniker": "E:\\Bureau\\NewApp\\Angular-Project\\AccessManagmentAPI\\AccessManagmentAPI\\Program.cs",
-              "RelativeDocumentMoniker": "AccessManagmentAPI\\Program.cs",
-              "ToolTip": "E:\\Bureau\\NewApp\\Angular-Project\\AccessManagmentAPI\\AccessManagmentAPI\\Program.cs",
-              "RelativeToolTip": "AccessManagmentAPI\\Program.cs",
-              "ViewState": "AQIAAAkAAAAAAAAAAAAAABAAAABAAAAA",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-05-28T08:37:53.939Z"
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 9,
-              "Title": "CustomerService.cs",
-              "DocumentMoniker": "E:\\Bureau\\NewApp\\Angular-Project\\AccessManagmentAPI\\AccessManagmentAPI\\Container\\CustomerService.cs",
-              "RelativeDocumentMoniker": "AccessManagmentAPI\\Container\\CustomerService.cs",
-              "ToolTip": "E:\\Bureau\\NewApp\\Angular-Project\\AccessManagmentAPI\\AccessManagmentAPI\\Container\\CustomerService.cs",
-              "RelativeToolTip": "AccessManagmentAPI\\Container\\CustomerService.cs",
-              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAQAAAAxAAAA",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-05-28T10:49:34.274Z"
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 1,
-              "Title": "UserRoleController.cs",
-              "DocumentMoniker": "E:\\Bureau\\NewApp\\Angular-Project\\AccessManagmentAPI\\AccessManagmentAPI\\Controllers\\UserRoleController.cs",
-              "RelativeDocumentMoniker": "AccessManagmentAPI\\Controllers\\UserRoleController.cs",
-              "ToolTip": "E:\\Bureau\\NewApp\\Angular-Project\\AccessManagmentAPI\\AccessManagmentAPI\\Controllers\\UserRoleController.cs",
-              "RelativeToolTip": "AccessManagmentAPI\\Controllers\\UserRoleController.cs",
-              "ViewState": "AQIAABMAAAAAAAAAAAAswDIAAABFAAAA",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-05-28T10:45:59.32Z",
+              "WhenOpened": "2024-05-28T10:48:45.576Z",
               "EditorCaption": ""
             },
             {
               "$type": "Document",
-              "DocumentIndex": 8,
+              "DocumentIndex": 9,
+              "Title": "appsettings.json",
+              "DocumentMoniker": "E:\\Bureau\\NewApp\\Angular-Project\\AccessManagmentAPI\\AccessManagmentAPI\\appsettings.json",
+              "RelativeDocumentMoniker": "AccessManagmentAPI\\appsettings.json",
+              "ToolTip": "E:\\Bureau\\NewApp\\Angular-Project\\AccessManagmentAPI\\AccessManagmentAPI\\appsettings.json",
+              "RelativeToolTip": "AccessManagmentAPI\\appsettings.json",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAUAAAAuAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.001642|",
+              "WhenOpened": "2024-05-27T09:42:59.281Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 10,
+              "Title": "ProductController.cs",
+              "DocumentMoniker": "E:\\Bureau\\NewApp\\Angular-Project\\AccessManagmentAPI\\AccessManagmentAPI\\Controllers\\ProductController.cs",
+              "RelativeDocumentMoniker": "AccessManagmentAPI\\Controllers\\ProductController.cs",
+              "ToolTip": "E:\\Bureau\\NewApp\\Angular-Project\\AccessManagmentAPI\\AccessManagmentAPI\\Controllers\\ProductController.cs",
+              "RelativeToolTip": "AccessManagmentAPI\\Controllers\\ProductController.cs",
+              "ViewState": "AQIAAF4BAAAAAAAAAAAswG4BAAABAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-05-30T13:16:59.006Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 13,
+              "Title": "JwtSettings.cs",
+              "DocumentMoniker": "E:\\Bureau\\NewApp\\Angular-Project\\AccessManagmentAPI\\AccessManagmentAPI\\Models\\JwtSettings.cs",
+              "RelativeDocumentMoniker": "AccessManagmentAPI\\Models\\JwtSettings.cs",
+              "ToolTip": "E:\\Bureau\\NewApp\\Angular-Project\\AccessManagmentAPI\\AccessManagmentAPI\\Models\\JwtSettings.cs",
+              "RelativeToolTip": "AccessManagmentAPI\\Models\\JwtSettings.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAUAAAAFAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-05-30T06:47:55.284Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 14,
+              "Title": "UserCred.cs",
+              "DocumentMoniker": "E:\\Bureau\\NewApp\\Angular-Project\\AccessManagmentAPI\\AccessManagmentAPI\\Models\\UserCred.cs",
+              "RelativeDocumentMoniker": "AccessManagmentAPI\\Models\\UserCred.cs",
+              "ToolTip": "E:\\Bureau\\NewApp\\Angular-Project\\AccessManagmentAPI\\AccessManagmentAPI\\Models\\UserCred.cs",
+              "RelativeToolTip": "AccessManagmentAPI\\Models\\UserCred.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAUAAAAsAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-05-30T06:57:59.091Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 12,
+              "Title": "AutoMapperHandler.cs",
+              "DocumentMoniker": "E:\\Bureau\\NewApp\\Angular-Project\\AccessManagmentAPI\\AccessManagmentAPI\\Helper\\AutoMapperHandler.cs",
+              "RelativeDocumentMoniker": "AccessManagmentAPI\\Helper\\AutoMapperHandler.cs",
+              "ToolTip": "E:\\Bureau\\NewApp\\Angular-Project\\AccessManagmentAPI\\AccessManagmentAPI\\Helper\\AutoMapperHandler.cs",
+              "RelativeToolTip": "AccessManagmentAPI\\Helper\\AutoMapperHandler.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAABAAAAAAAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-05-30T07:38:10.339Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 15,
+              "Title": "UserModel.cs",
+              "DocumentMoniker": "E:\\Bureau\\NewApp\\Angular-Project\\AccessManagmentAPI\\AccessManagmentAPI\\Models\\UserModel.cs",
+              "RelativeDocumentMoniker": "AccessManagmentAPI\\Models\\UserModel.cs",
+              "ToolTip": "E:\\Bureau\\NewApp\\Angular-Project\\AccessManagmentAPI\\AccessManagmentAPI\\Models\\UserModel.cs",
+              "RelativeToolTip": "AccessManagmentAPI\\Models\\UserModel.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAgAAAArAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-05-30T07:36:50.409Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 16,
+              "Title": "RefreshHandler.cs",
+              "DocumentMoniker": "E:\\Bureau\\NewApp\\Angular-Project\\AccessManagmentAPI\\AccessManagmentAPI\\Container\\RefreshHandler.cs",
+              "RelativeDocumentMoniker": "AccessManagmentAPI\\Container\\RefreshHandler.cs",
+              "ToolTip": "E:\\Bureau\\NewApp\\Angular-Project\\AccessManagmentAPI\\AccessManagmentAPI\\Container\\RefreshHandler.cs",
+              "RelativeToolTip": "AccessManagmentAPI\\Container\\RefreshHandler.cs",
+              "ViewState": "AQIAABAAAAAAAAAAAAAgwCQAAAAmAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-05-30T06:51:15.979Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 17,
+              "Title": "IRefreshHandler.cs",
+              "DocumentMoniker": "E:\\Bureau\\NewApp\\Angular-Project\\AccessManagmentAPI\\AccessManagmentAPI\\Service\\IRefreshHandler.cs",
+              "RelativeDocumentMoniker": "AccessManagmentAPI\\Service\\IRefreshHandler.cs",
+              "ToolTip": "E:\\Bureau\\NewApp\\Angular-Project\\AccessManagmentAPI\\AccessManagmentAPI\\Service\\IRefreshHandler.cs",
+              "RelativeToolTip": "AccessManagmentAPI\\Service\\IRefreshHandler.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAQAAAA0AAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-05-28T10:47:57.827Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 18,
+              "Title": "Appmenu.cs",
+              "DocumentMoniker": "E:\\Bureau\\NewApp\\Angular-Project\\AccessManagmentAPI\\AccessManagmentAPI\\Models\\Appmenu.cs",
+              "RelativeDocumentMoniker": "AccessManagmentAPI\\Models\\Appmenu.cs",
+              "ToolTip": "E:\\Bureau\\NewApp\\Angular-Project\\AccessManagmentAPI\\AccessManagmentAPI\\Models\\Appmenu.cs",
+              "RelativeToolTip": "AccessManagmentAPI\\Models\\Appmenu.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAqwAgAAAAHAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-05-29T13:50:41.171Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 19,
               "Title": "Customermodal.cs",
               "DocumentMoniker": "E:\\Bureau\\NewApp\\Angular-Project\\AccessManagmentAPI\\AccessManagmentAPI\\Models\\Customermodal.cs",
               "RelativeDocumentMoniker": "AccessManagmentAPI\\Models\\Customermodal.cs",
@@ -192,35 +349,12 @@
               "RelativeToolTip": "AccessManagmentAPI\\Models\\Customermodal.cs",
               "ViewState": "AQIAAAAAAAAAAAAAAAAAAB8AAAAFAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-05-28T11:01:00.754Z"
+              "WhenOpened": "2024-05-28T11:01:00.754Z",
+              "EditorCaption": ""
             },
             {
               "$type": "Document",
-              "DocumentIndex": 11,
-              "Title": "IRefreshHandler.cs",
-              "DocumentMoniker": "E:\\Bureau\\NewApp\\Angular-Project\\AccessManagmentAPI\\AccessManagmentAPI\\Service\\IRefreshHandler.cs",
-              "RelativeDocumentMoniker": "AccessManagmentAPI\\Service\\IRefreshHandler.cs",
-              "ToolTip": "E:\\Bureau\\NewApp\\Angular-Project\\AccessManagmentAPI\\AccessManagmentAPI\\Service\\IRefreshHandler.cs",
-              "RelativeToolTip": "AccessManagmentAPI\\Service\\IRefreshHandler.cs",
-              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAAAAAAAAAAA",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-05-28T10:47:57.827Z"
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 12,
-              "Title": "ICustomerService.cs",
-              "DocumentMoniker": "E:\\Bureau\\NewApp\\Angular-Project\\AccessManagmentAPI\\AccessManagmentAPI\\Service\\ICustomerService.cs",
-              "RelativeDocumentMoniker": "AccessManagmentAPI\\Service\\ICustomerService.cs",
-              "ToolTip": "E:\\Bureau\\NewApp\\Angular-Project\\AccessManagmentAPI\\AccessManagmentAPI\\Service\\ICustomerService.cs",
-              "RelativeToolTip": "AccessManagmentAPI\\Service\\ICustomerService.cs",
-              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAAAAAAAAAAA",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-05-28T10:47:39.698Z"
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 10,
+              "DocumentIndex": 20,
               "Title": "UserRegister.cs",
               "DocumentMoniker": "E:\\Bureau\\NewApp\\Angular-Project\\AccessManagmentAPI\\AccessManagmentAPI\\Models\\UserRegister.cs",
               "RelativeDocumentMoniker": "AccessManagmentAPI\\Models\\UserRegister.cs",
@@ -228,19 +362,8 @@
               "RelativeToolTip": "AccessManagmentAPI\\Models\\UserRegister.cs",
               "ViewState": "AQIAAAAAAAAAAAAAAAAAAAYAAAAXAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-05-27T09:16:05.035Z"
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 13,
-              "Title": "appsettings.json",
-              "DocumentMoniker": "E:\\Bureau\\NewApp\\Angular-Project\\AccessManagmentAPI\\AccessManagmentAPI\\appsettings.json",
-              "RelativeDocumentMoniker": "AccessManagmentAPI\\appsettings.json",
-              "ToolTip": "E:\\Bureau\\NewApp\\Angular-Project\\AccessManagmentAPI\\AccessManagmentAPI\\appsettings.json",
-              "RelativeToolTip": "AccessManagmentAPI\\appsettings.json",
-              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAkAAABdAAAA",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.001642|",
-              "WhenOpened": "2024-05-27T09:42:59.281Z"
+              "WhenOpened": "2024-05-27T09:16:05.035Z",
+              "EditorCaption": ""
             }
           ]
         }

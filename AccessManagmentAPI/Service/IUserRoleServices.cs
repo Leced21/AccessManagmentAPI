@@ -10,6 +10,7 @@ namespace AccessManagmentAPI.Service
         Task<APIResponse> AssignRolePermission (List<TblRolepermission> _data);
         Task<List<TblRole>> GetAllRoles();
         Task<List<TblMenu>> GetAllMenus();
-        Task<List<Appmenu>> GetAllMenubyrole(string userrole);
+        Task<List<Appmenu>> GetAllMenusbyrole(string userrole);
+        Task<Menupermission> GetMenupermissionbyrole(string userrole,string menucode);
     }
 }

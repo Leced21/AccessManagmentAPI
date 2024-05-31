@@ -69,7 +69,7 @@ namespace AccessManagmentAPI.Container
             return response;
         }
 
-        public async Task<List<Appmenu>> GetAllMenubyrole(string userrole)
+        public async Task<List<Appmenu>> GetAllMenusbyrole(string userrole)
         {
             List<Appmenu> appmenus = new List<Appmenu>();
             var accessdata = (from menu in this._contetxtDb.TblRolepermissions.Where(o => o.Userrole == userrole && o.Haveview) 
@@ -90,6 +90,7 @@ namespace AccessManagmentAPI.Container
             return appmenus;
         }
 
+
         public async Task<List<TblMenu>> GetAllMenus()
         {
             return await this._contetxtDb.TblMenus.ToListAsync();
@@ -98,6 +99,21 @@ namespace AccessManagmentAPI.Container
         public async Task<List<TblRole>> GetAllRoles()
         {
            return await this._contetxtDb.TblRoles.ToListAsync();
+        }
+
+        public async Task<Menupermission>GetMenupermissionbyrole(string userrole, string menucode)
+        {
+            Menupermission menupermission = new Menupermission();
+            var _data = await this._contetxtDb.TblRolepermissions.FirstOrDefaultAsync(o => o.Userrole == userrole && o.Haveview && o.Menucode == menucode);
+            if (_data != null)
+            {
+                menupermission.code = _data.Menucode;
+                menupermission.Haveview = _data.Haveview;
+                menupermission.Haveadd = _data.Haveadd;
+                menupermission.Haveedit = _data.Haveedit;
+                menupermission.Havedelete = _data.Havedelete;
+            }
+            return menupermission;
         }
     }
 }
