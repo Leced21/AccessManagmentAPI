@@ -27,9 +27,9 @@ namespace AccessManagmentAPI.Controllers
         }
 
         [HttpPost("confirmregisteration")]
-        public async Task<IActionResult> confirmRegistration(int userid, string username, string otptext)
+        public async Task<IActionResult> confirmRegistration(UserConfirm _data)
         {
-            var data = await this.userService.ConfirmRegister(userid, username, otptext);
+            var data = await this.userService.ConfirmRegister(_data.userid, _data.username, _data.otptext);
             return Ok(data);
         }
 

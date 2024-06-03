@@ -3,7 +3,6 @@ using AccessManagmentAPI.Helper;
 using AccessManagmentAPI.Models;
 using AccessManagmentAPI.Repos.Models;
 using AccessManagmentAPI.Service;
-using Microsoft.AspNetCore.Identity;
 using Microsoft.EntityFrameworkCore;
 
 namespace AccessManagmentAPI.Container
