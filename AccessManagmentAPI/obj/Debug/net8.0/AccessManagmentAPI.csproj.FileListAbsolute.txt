@@ -157,3 +157,6 @@ E:\Bureau\NewApp\Angular-Project\AccessManagmentAPI\AccessManagmentAPI\bin\Debug
 E:\Bureau\NewApp\Angular-Project\AccessManagmentAPI\AccessManagmentAPI\bin\Debug\net8.0\SixLabors.Fonts.dll
 E:\Bureau\NewApp\Angular-Project\AccessManagmentAPI\AccessManagmentAPI\bin\Debug\net8.0\System.IO.Packaging.dll
 E:\Bureau\NewApp\Angular-Project\AccessManagmentAPI\AccessManagmentAPI\bin\Debug\net8.0\XLParser.dll
+E:\Bureau\NewApp\Angular-Project\AccessManagmentAPI\AccessManagmentAPI\bin\Debug\net8.0\BouncyCastle.Cryptography.dll
+E:\Bureau\NewApp\Angular-Project\AccessManagmentAPI\AccessManagmentAPI\bin\Debug\net8.0\MailKit.dll
+E:\Bureau\NewApp\Angular-Project\AccessManagmentAPI\AccessManagmentAPI\bin\Debug\net8.0\MimeKit.dll

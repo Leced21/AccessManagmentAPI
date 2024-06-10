@@ -22,10 +22,12 @@ builder.Services.AddControllers();
 // Learn more about configuring Swagger/OpenAPI at https://aka.ms/aspnetcore/swashbuckle
 builder.Services.AddEndpointsApiExplorer();
 builder.Services.AddSwaggerGen();
+builder.Services.Configure<EmailSettings>(builder.Configuration.GetSection("EmailSettings"));
 builder.Services.AddTransient<ICustomerService, CustomerService>();
 builder.Services.AddTransient<IRefreshHandler, RefreshHandler>();
 builder.Services.AddTransient<IUserService, UserService>();
 builder.Services.AddTransient<IUserRoleServices, UserRoleService>();
+builder.Services.AddTransient<IEmailService, EmailService>();
 builder.Services.AddDbContext<ContetxtDb>(options =>
 {
     options.UseSqlServer(builder.Configuration.GetConnectionString("DefaultConnection"));
@@ -55,15 +57,20 @@ var automapper = new MapperConfiguration(item => item.AddProfile(new AutoMapperH
 IMapper mapper = automapper.CreateMapper();
 builder.Services.AddSingleton(mapper);
 
-builder.Services.AddCors(option =>
+builder.Services.AddCors(p => p.AddPolicy("corspolicy", build =>
 {
-    option.AddPolicy("MyPolicy", builder =>
-    {
-        builder.AllowAnyOrigin()
-        .AllowAnyMethod()
-        .AllowAnyHeader();
-    });
-});
+    build.WithOrigins("*").AllowAnyMethod().AllowAnyHeader();
+}));
+
+builder.Services.AddCors(p => p.AddPolicy("corspolicy1", build =>
+{
+    build.WithOrigins("https://localhost:4200").AllowAnyMethod().AllowAnyHeader();
+}));
+
+builder.Services.AddCors(p => p.AddDefaultPolicy(build =>
+{
+    build.WithOrigins("*").AllowAnyMethod().AllowAnyHeader();
+}));
 
 builder.Services.AddRateLimiter(_ => _.AddFixedWindowLimiter(policyName: "fixedwindow", options =>
 {
@@ -122,7 +129,7 @@ app.MapPut("/updatecustomer/{code}", async (ContetxtDb db, TblCustomer customer,
 app.MapDelete("/removecustomer/{code}", async (ContetxtDb db, string code) => {
     var existdata = await db.TblCustomers.FindAsync(code);
     if (existdata != null)
-    {
+    { 
         db.TblCustomers.Remove(existdata);
     }
     await db.SaveChangesAsync();
@@ -138,7 +145,7 @@ app.UseRateLimiter();
 //}
 app.UseStaticFiles();
 
-app.UseCors("MyPolicy");
+app.UseCors();
 
 app.UseHttpsRedirection();
 

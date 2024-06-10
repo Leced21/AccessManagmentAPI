@@ -100,28 +100,11 @@ namespace AccessManagmentAPI.Controllers
                     {
                         return Unauthorized();
                     }
-
-                    //var tokendesc = new SecurityTokenDescriptor
-                    //{
-                    //    Subject = new ClaimsIdentity(new Claim[]
-                    //    {
-                    //        new Claim(ClaimTypes.Name,user.Code),
-                    //        new Claim(ClaimTypes.Role,user.Role)
-                    //    }),
-                    //    Expires = DateTime.UtcNow.AddSeconds(30),
-                    //    SigningCredentials = new SigningCredentials(new SymmetricSecurityKey(tokenkey), SecurityAlgorithms.HmacSha256)
-                    //};
-                    //var token = tokenhandler.CreateToken(tokendesc);
-                    //var finaltoken = tokenhandler.WriteToken(token);
-                    //return Ok(new TokenResponse() { Token = finaltoken, RefreshToken = await this.refresh.GenerateToken(userCred.username) });
-
                 }
                 else
                 {
                     return Unauthorized();
                 }
-
             }
-        }
-    
+    }
 }

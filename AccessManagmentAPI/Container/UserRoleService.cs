@@ -72,21 +72,30 @@ namespace AccessManagmentAPI.Container
         public async Task<List<Appmenu>> GetAllMenusbyrole(string userrole)
         {
             List<Appmenu> appmenus = new List<Appmenu>();
-            var accessdata = (from menu in this._contetxtDb.TblRolepermissions.Where(o => o.Userrole == userrole && o.Haveview) 
+            try
+            {
+                var accessdata = await (from menu in this._contetxtDb.TblRolepermissions.Where(o => o.Userrole == userrole && o.Haveview) 
                               join m in this._contetxtDb.TblMenus on menu.Menucode equals m.Code into _jointable
                               from p in _jointable.DefaultIfEmpty()
-                              select new {code=menu.Menucode, name=p.Name}).ToList();
-            if (accessdata.Any())
-            {
-                accessdata.ForEach(item =>
+                              select new {code=menu.Menucode, name=p.Name}).ToListAsync();
+                if (accessdata.Any())
                 {
-                    appmenus.Add(new Appmenu()
+                    accessdata.ForEach(item =>
                     {
-                        code = item.code,
-                        Name = item.name,
+                        appmenus.Add(new Appmenu()
+                        {
+                            code = item.code,
+                            Name = item.name,
+                        });
                     });
-                });
+                }
             }
+            catch (Exception ex)
+            {
+                // Handle exceptions appropriately, for example logging the error
+                Console.WriteLine($"An error occurred: {ex.Message}");
+            }
+
             return appmenus;
         }
 

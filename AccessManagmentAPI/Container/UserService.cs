@@ -3,16 +3,22 @@ using AccessManagmentAPI.Helper;
 using AccessManagmentAPI.Models;
 using AccessManagmentAPI.Repos.Models;
 using AccessManagmentAPI.Service;
+using AutoMapper;
 using Microsoft.EntityFrameworkCore;
+using Microsoft.EntityFrameworkCore.Query;
 
 namespace AccessManagmentAPI.Container
 {
     public class UserService : IUserService
     {
         private readonly ContetxtDb _contetxtDb;
-        public UserService(ContetxtDb contetxtdb)
+        private readonly IMapper _mapper;
+        private readonly IEmailService _emailService;
+        public UserService(ContetxtDb contetxtdb, IEmailService emailService, IMapper mapper)
         {
             _contetxtDb = contetxtdb;
+            _emailService = emailService;
+            _mapper = mapper;
         }
 
         public async Task<APIResponse> ConfirmRegister(int userid, string username, string otptext)
@@ -151,7 +157,22 @@ namespace AccessManagmentAPI.Container
 
         private async Task SendOtpMail(string usermail, string OtpText, string Name)
         {
+            var mailrequest = new MailRequest();
+            mailrequest.Email=usermail;
+            mailrequest.Subject = "Thank for registration :OTP";
+            mailrequest.Emailbody=GenerateEmailBody(Name, OtpText);
+            await _emailService.SendEmail(mailrequest);
+        }
 
+        private string GenerateEmailBody(string name, string otpText)
+        {
+            string emailbody= "<div style='width:100%;background-color:grey'>";
+            emailbody += "<h1>Hi" + name + ", Thank for everything</h1>";
+            emailbody += "<h2> Please enter OTP text and complete the registeration</h2>";
+            emailbody += "<h2> OTP Text is:" + otpText + "</h2>";
+            emailbody += "<div>";
+
+            return emailbody;
         }
 
         public async Task<APIResponse> ResetPassword(string username, string oldpassword, string newpassword)
